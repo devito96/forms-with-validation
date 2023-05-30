@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com validação</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="texto-suporte">
+            <h2>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+
+        <section class="formulario">
+
+            <div class="caixa-input">
+                <input type="text" class="input" name="nome" placeholder="Nome completo *" />
+                <p class="aviso">campo obrigatório</p>
+            </div>
+
+            <div class="caixa-input">
+                <input type="email" class="input" name="email" placeholder="Email *" />
+                <p class="aviso">campo obrigatório</p>
+            </div>
+
+            <div class="caixa-input">
+                <input type="number" class="input" name="telefone" placeholder="Telefone *" />
+                <p class="aviso">campo obrigatório</p>
+            </div>
+
+            <div class="caixa-input">
+                <input type="text" class="input" name="mensagem" placeholder="Mensagem *" />
+                <p class="aviso">campo obrigatório</p>
+            </div>
+
+            <p class="legenda-asterisco">*campos obrigatórios</p>
+
+            <a href="#" class="btn-enviar">Enviar</a>
+
+        </section>
+    </main>
+
+    <script src="formulario.js"></script>
+</body>
+
+</html>
